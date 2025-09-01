@@ -9,7 +9,7 @@ related : PersonaAgent: When Large Language Model Agents Meet Personalization at
 - 以下2つのメモリの有効性
     - semantic memory
     - episodic memory
-- gtの代わりのliがどこまで機能するか
+- ground truthの代わりにllm inferenceがどこまで機能するか
 
 ---
 ### 検証
