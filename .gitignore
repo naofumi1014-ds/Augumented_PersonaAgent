@@ -1,0 +1,8 @@
+.env
+
+# Memory folder
+memory/
+
+# chat_log/
+
+PersonaAgent/

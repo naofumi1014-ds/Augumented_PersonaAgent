@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "personaagent"
+version = "0.1.0"
+description = ""
+authors = ["naofumi1014-ds <osawa.naofumi@dentsusoken.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+load-dotenv = "^0.1.0"
+azureopenai = "^0.0.1"
+pydantic = "^2.11.5"
+openai = "^1.86.0"
+streamlit = "^1.45.1"
+langfuse = "^2.59.7"
+faiss-cpu = "^1.11.0"
+azure-search-documents = "^11.5.2"
+scikit-learn = "^1.7.1"
+plotly = "^6.3.0"
+nbformat = "^5.10.4"
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
